@@ -12,15 +12,14 @@ npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
 
-
-
+```
 You can  go to one of these faucets, claim your Sepolia Eth (SepETH). Then bridge it from Ethereum Sepolia to Arbitrum Sepolia using the official Arbitrum bridge: <https://bridge.arbitrum.io/>
 
-<https://faucet.quicknode.com/arbitrum/sepolia> 
-<https://sepoliafaucet.com/> 
-<https://www.infura.io/faucet/sepolia> 
-<https://sepolia-faucet.pk910.de/> 
-<https://www.l2faucet.com/arbitrum>
+- <https://faucet.quicknode.com/arbitrum/sepolia> 
+- <https://sepoliafaucet.com/> 
+- <https://www.infura.io/faucet/sepolia> 
+- <https://sepolia-faucet.pk910.de/> 
+- <https://www.l2faucet.com/arbitrum>
 
 
 deployed to {
@@ -33,7 +32,7 @@ deployed to {
   "from": "0x90D553dAa70f007033dA3789b7dc61D5E31e8c10",
   "gasLimit": "1541971",
   "gasPrice": "160340000",
-  "hash": "0x7beedfc5323b64b6edf15d817596d93102dfcb1cbdcf9edc74335196c80acb02",
+  "hash": "0x7beedfc5aap",
   "maxFeePerGas": "202424062",
   "maxPriorityFeePerGas": "0",
   "nonce": 3,
@@ -48,3 +47,4 @@ deployed to {
   "type": 2,
   "value": "0"
 }
+```
