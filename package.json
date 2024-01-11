@@ -2,9 +2,21 @@
   "name": "hardhat-project",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "hardhat": "^2.19.4"
+    "@types/node": "^20.11.0",
+    "hardhat": "^2.19.4",
+    "hardhat-ethers": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.2"
+  },
+  "scripts": {
+    "hardhat": "hardhat",
+    "compile": "tsc",
+    "node": "node",
+    "test": "hardhat test",
+    "run": "ts-node"
   }
 }
