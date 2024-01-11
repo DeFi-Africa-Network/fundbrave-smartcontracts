@@ -5,9 +5,9 @@ dotenv.config();
 
 
 
-const arbitrumGoerli: NetworkUserConfig ={
-  url: "https://arb-goerli.g.alchemy.com/v2/oKxs-03sij-U_N0iOlrSsZFr29-IqbuF",
-  chainId: 421613,
+const arbitrumSepolia: NetworkUserConfig ={
+  url: "https://arb-sepolia.g.alchemy.com/v2/dzO82H1hVgK_Vz6VUEla-yU_krdhRs73",
+  chainId: 421614,
   accounts: [process.env.PRIVATE_KEY!],
 };
 
@@ -27,7 +27,7 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    arbitrumGoerli,
+    arbitrumSepolia,
    
   },
 
